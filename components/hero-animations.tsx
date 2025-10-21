@@ -17,7 +17,7 @@ export default function HeroAnimations() {
           if (i < text.length) {
             highlight.textContent += text.charAt(i)
             i++
-            setTimeout(typeWriter, 100)
+            setTimeout(typeWriter, 30)
           } else {
             // Remove cursor after typing
             setTimeout(() => {
