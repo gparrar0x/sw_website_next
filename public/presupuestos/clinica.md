@@ -6,12 +6,6 @@ total: "USD 1,800 + USD 300/mes"
 contacto: "www.skywalking.dev · hola@skywalking.dev"
 ---
 
-# Propuesta Bot Clínica San Martín
-
-www.skywalking.dev · hola@skywalking.dev
-
----
-
 ## Etapa 1 – Alcance
 
 **Bot integrado en la web y a WhatsApp**
