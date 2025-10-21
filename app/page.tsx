@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Header from "@/components/header";
 import HeroAnimations from "@/components/hero-animations";
 import WhatsAppButton from "@/components/whatsapp-button";
 import ContactForm from "@/components/contact-form";
@@ -8,19 +8,7 @@ export default function Home() {
     <div>
       <HeroAnimations />
       <WhatsAppButton />
-      {/* Navigation */}
-      <nav className="sw-nav">
-        <div className="sw-nav-container">
-          <div className="sw-nav-brand">
-            <span className="sw-brand-icon">🚀</span>
-            <span>Skywalking.dev</span>
-          </div>
-          <div className="sw-nav-links">
-            <a href="#servicios" className="sw-nav-link">Servicios</a>
-            <a href="#contacto" className="sw-nav-link sw-cta-button">Contáctanos</a>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       {/* Hero Section */}
       <section className="sw-hero" id="inicio">

@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { getPresupuestoBySlug, getAllPresupuestosSlugs } from '@/lib/presupuestos'
 import PresupuestoViewer from '@/components/presupuesto/presupuesto-viewer'
 import ExportPDFButton from '@/components/presupuesto/export-pdf-button'
+import Header from '@/components/header'
 import { Metadata } from 'next'
 
 interface PageProps {
@@ -44,7 +45,8 @@ export default async function PresupuestoPage({ params }: PageProps) {
 
   return (
     <>
-      <div id="presupuesto-content">
+      <Header showNavLinks={false} />
+      <div id="presupuesto-content" style={{ paddingTop: '80px' }}>
         <PresupuestoViewer
           content={presupuesto.content}
           metadata={presupuesto.metadata}
