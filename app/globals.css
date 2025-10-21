@@ -28,7 +28,7 @@ body {
 /* Estilos para markdown en presupuestos */
 .markdown-content {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #374151;
 }
 
@@ -46,8 +46,8 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   color: #111827;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 0.5rem;
 }
@@ -56,18 +56,18 @@ body {
   font-size: 1.35rem;
   font-weight: 600;
   color: #1f2937;
-  margin-top: 1.75rem;
-  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 .markdown-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: #4b5563;
 }
 
 .markdown-content ul,
 .markdown-content ol {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   padding-left: 1.75rem;
 }
 
@@ -80,9 +80,9 @@ body {
 }
 
 .markdown-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
   color: #4b5563;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .markdown-content li ul,
